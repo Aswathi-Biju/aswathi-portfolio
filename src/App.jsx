@@ -368,7 +368,7 @@ function Hero({ dark }) {
             <motion.a
               whileHover={{ scale: 1.04, y: -2 }}
               whileTap={{ scale: 0.97 }}
-              href="#"
+              href="/resume.pdf" download
               className={`px-6 py-3 rounded-xl font-semibold text-sm border transition-colors ${
                 dark ? "border-white/20 text-white hover:bg-white/10" : "border-gray-300 text-gray-800 hover:bg-gray-100"
               }`}
